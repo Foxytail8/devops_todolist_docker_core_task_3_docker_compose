@@ -9,3 +9,12 @@ http://localhost:8080
 
 run command for stoped app  
 docker-compose stop
+
+for stop and remove container use command
+docker-compose down -v
+
+for chech running container use command
+docker ps
+
+for view logs use this command
+docker-compose logs
